@@ -1,0 +1,8 @@
+Union 
+
+Multiple Joins (Joining different tables)
+
+Join same tables (using self join)
+
+Cross join
+

@@ -1,0 +1,15 @@
+Today's Agenda : 
+
+Substring : it is a function which will retrive the part of the string -> substr(col_name, Start_word, End_word)
+
+Using Offset
+ 
+Using Where Clause
+
+using In in where clause 
+
+Using between in where clause
+
+Using Upper and Lower 
+
+Using Like 

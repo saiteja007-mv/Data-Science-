@@ -1,0 +1,21 @@
+Today agenda : How to use data query language to manipulate and extract the data
+
+
+Types of SQL Command 
+
+> DDL (Data Definition Language) - Create, Drop, Alter
+
+> DML (Data Manuplation Language) - Insert, Delete, Update, 
+
+> DCL (Data Control Language) - Grant, Revoke
+
+> TCL (Transcation control Language) - Rollback, Commit
+
+> DQL (Data Query Language) - Select 
+
+
+Order of Execution in SQL 
+
+select - from - where - groupby - having - orderby - limit
+
+Going through From - where - Group by - having - select - Order by - limit

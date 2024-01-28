@@ -1,0 +1,77 @@
+Database :
+
+
+Relational 
+A database that deals with tables (any tables) that is a relational database.
+
+Example for this. So now, if you should be asking me a question, now, isnt every database supposed to be tabular? Will there be a database with no tables Is there a database where they do not use tables? Is there a way how we can store the data without making use of any tables? Yes. So when I, when I first say, I have two types of database, and I tell that relational database is something where we deal with tables. By default, what does non relation database mean? Rice does not have tables. Yes, the data is not managed. using tables, right? So you do not use any tables over there. Now, for example, what are the example for relational databases? Use my my estual sql light. What happened? Let's please note it down
+
+Examples of Relational Databases
+> MySQL 
+> SQL Lite 
+
+Non - Relational database (Deals with text, graphs and JSON files) 
+
+Examples 
+
+> MangoDB
+> Casandra
+
+Database Management System (DBMS)
+
+It is a collection of interconnected tables also. There could be multiple tables in cell database. There could be multiple tables. You have understood the database management system is there could be multiple tables inside a database. And each of these are interconnected. Now,
+
+what is management system? 
+A set of operations used to manage database 
+
+CRUD - Create Read Update Delete 
+
+what we are going to understand for next couple of days and what we are going to operate on, is read. Create update. That is the way I will reach you. All of this also. But this is the most important for a data analyst. or data centers. because this, this, this, it is a task of a data engineer. called it because you reach the data, you get the data, you retrieve the data, you operate with that Did we make any changes to the data that we had in the columns? Did we create something new? No. So whatever that was already given to us is what we have used it and we got into a beautiful dashboard. Right? So we are going to operate on reads, but well, I will be teaching you this also to your nothing to worry. But this is our most focused company. Now it is a Monday morning. You will get an email from your manager. He will tell you. to he is just tell you a center database. I will send the data to you. And we also told he has attached a hema. You have gotten all of that. Now he is telling you he send you a schema. What is schema? How the tables are arranged? How they are connected? Exactly. So assume this is table 1. This is table 2. This is table 3. This is students. This is features. This is subjects. Now, this could be a. Squirted us. yes, there could be many tables also like may be departments, non teaching, all of that. There could be multiple right So no what is kebab the understanding of interconnection between one or more tables
+
+The inter connection of all the tables is called schema
+
+Major Datatypes
+
+String -> Char and Varchar
+Numeric -> Int and float
+Date & Time
+
+
+When it comes to cat, if you're putting cat and using two or three, if you are defining, that means it is frozen, and it is fixed for that. Clear everyone. Why do you do this so that there is no error from the person collecting the data? You are typing, you know, right? If you enter something, it says, limit accident. Your name, your mobile number, should be of this length. You get the red color mark, right? Whenever you do some error, yes, no, so that is done because they have set a limit over here. Because of that, you get that error. So if suppose I have worker 100 now I am entering 100 first. Will it take. Will it take. No. Now I have put Walker 100. Now I am entering 101 digits. Will it take? Will it take? No, it won't. Because hundred is the maximum large even. now I have given character care of four now. 4. Now I am putting 2A and B. Does it take It has pixel and will it take? No. no, it's only two. I put back 4. Now I put A. Will it take And now I put AB, C, D, E. Will it take? No, no, no. Will it take for hole? Yes, we take three. Yes, will you take this? Yes, yes. It takes only till here. Now, whatever input of that, it does not take because the maximum is the maximum limit is done when it comes to this. This is the only limit you have to make sure that you are putting only this over there. Nothing else. Now, one of the smartly tell me, where do you, where should you be using this one? When you are connecting the data? And where should we using this one when connecting the data? When we're entering phone numbers. unique id, your fan number, right? Everyone of has that pan number, right?0 Everyone of us would have 10 digits only, right? Is there someone who has nine digits Now, if you are giving an access to a database, enter your pan card number. And if you put Varkar and 10 here, what is going to happen? Don't be think there could be someone who's who is in sleepy mode, who enter only 8 digits, someone who enter, try to enter level. It does not happen. Someone who just entered two childrens will take the father's phone. They enter only 22 leads. It will be leather, right? Yes. Now, what should you do? You should be like. character of 10. Even if somebody in whichever mode there, if they are trying to enter, you will get a net deal out. Pan card should be 10 digits. 10 characters. right? Yes. So understand these things very important. Can and you are can. Now again, coming to the numeric. In numeric we have major. I am talking about. We have integers. Float, right? And then we have date and time. Mostly these are the ones which is used in this table, right? The schema. Any doubts to hear this? Now you guys can see a low mark here. Right? And then the same customer ready is in the other table. There is red color out there. What does this indicate? There is something called primary key and foreign query. Primary key and foreign key. K, something called unique key. or MT. Have you learnt sql before? I shall learn some basics. Nice. Nice. Good morning. So what is primary? It is a unique, unique K, which does not have any null values, right? Yes. So whenever I am saying primary key now, let me get to the Lehman's terms. It is not key, lock and key. Through that form, if an even is thinking that, what is its memory? This is a term given in sequel, primarily. K is the one where you only have one key to open this house. So that is very unique to that table. A low color is like customer id, which is integer is generated at customers table only. That is its house, which means customer id, integer that is generated and stored inside customer stable only. That is the owner of it. It is unique to that table. Now, when you are using it here, it turns out to be red, because it is a foreigner. It is a foreign key. Same thing here. It is not belonging to this table. It is belonging to actually this table where it is yellowing color. Understanding and prime. keys can never be null. There cannot be null in that. It has to always have some value. For example, customer id. every customer should have an id. They should have an id. There could be customers under pan card who have not done pankard, who might not have an id. Yes, yes. But every single customer should have a customer id, right? So that becomes a primary key, which is unique to this customer table. And you use it to any other table that becomes a foreign key. And year it cannot be null. Now, when I say it cannot be null is when I am going to bring you to another concept called unique key. It can be null, but all the values are should be unique. Exactly. So here, unique key can be like, for example, Pankaj. Now, for palm card, you can't use it. It can't be a primary key. Right? It has to be a unique because it can be null values also somewhere here, right? So within the table, you have that yellow. So yellow is primary key, right? And when it goes to a different table, it becomes red color, which is a foreign key, which simply means this particular column is originated from another column. And I am using it just to do connection. You guys want to join, right? Yes. You all have learnt that join. You take that column, or the common table, to connect. So when you are taking that column from another table to this table, it gets merged, right? That is when that particular column becomes a fall in key. While in the beginning, it was the primary key for the first table where you took it from. Understood everyone. Now, for example, you have one table where you have student role number. and their name. students roll number and their name. So roll number could be 123456. And there is another web. students, family details. Okay. Their father, their mother, their grades, all of that could be stored in this. But here also they put student id no. tell me out of these two various student ID is primary key and very student ID for empty. in student table student ID should be primary primary primary key. Here it is because we have used the same thing to connect the data to other devices. because this is not originated from this table itself. We have taken this as a reference from other table to join the data which is matching to all these records Clear everyone. So anytime now again, can there be a student with no roll number? No, right. Cannot be. So now, now, if I have a section over here where it says, parents contact number, father's contact number, mother's contact number should I be using primary key to both of these? Why? Why should not type using primary key? Because not every mother can have phone numbers, right? There can be faster food numbers. Mothers who cant phone phone numbers that time you use. understood everyone. Yes, I will pick a launch of pole or a quiz. So you have a population data. This is a quiz. You have a population table. In this population table of of India, now I am having another section. called Aadhar card. Aadhar card number. Now, under other cut section, should it. be using primary key. or unique key. Unique. Very important. Clicky question. Do not hurry. I want everyone to give your own unique answers. Now you have a population table, which has other card numbers in it. Using primary key. or second unique. primary image primary. You should be using primary keywords, primary key How you agree with primary key? Raise your hands. 1234 How many of you agree with unique? So you both don't agree with anything. Population is stable means they are from the different countries. It could be anything. Population of India is Indian population. So I would tell you that he was right. Good explanation now satisfactory love. The explanation is not that good, but unique key is the right answer. Why? Why is it? Why is unique measure? Because some of the newborn should not apply. Now, population could be first thing, serial number, serial number, 123451 30 billion. right? Yes. Now, there could be, may be a unique, unique, unique citizenship id, whatever. So there could be a column called Aadhar. These things are system generated. Again, keep one more thing in mind. All system generated things should be in primary key. Because by default system generates them right. Now again, do you think everybody would have other countries? No. you know, everyone is sure everyone 30 billion people in India and other card law Some of them are did not apply. Some of them are nuanced. They do not have. Not everybody has made right. Like may be if you go to some villages, there could be some old people who do not have a other guard. There are so many people who do not even have alakadi even now. Yes, not everybody has other cards. So if you keep it as primary key, don't you think you might need none somewhere where it is not available for maybe newborn babies or whatever it is? Yes. Why is we have a serial number? This will definitely be a primary key, because everyone will have serial number. Or if there is a system generated, unique citizenship code, which will be generated for everyone, then may be the social would require. So that is how you understand difference between primary key and primary key. And what is falling key? You have another table. The reference, the reference attribute that you have chosen from a different table to connect to the. now let us understand how this connection, the type of connections, how does it happen?
+
+
+Types of Relationships
+
+
+Like you can see here, right? We have connected here. This is connected. This is connected. These are all called relationships. So there are different types of relationships.
+
+One to One ( || ) Symbol
+
+One to Many  or  Many to one  ( |< ) Symbol
+
+Many to Many 
+
+
+They have suddenly this than an eighth one woman who a navy has won easily as it has this gives you a put into its own if the fed has hit and then use either the ball as a poet who laws that have been a whole has involved in Omaha whole has used in his own little easier What should I use here now? Is it this I should be using? What? Can I too many? It is many to many, right? But this will not be used in and even. this is relented. Why? Why? Because this brings in duplication of the data. So what we do is we get another table in the middle called a junction table. Whenever there is a many to many connection between two tables, we bring another table called a junction table. No readout.
+
+We do not use One to One relation and Many to Many relation instead we use 
+
+Junction Table 
+
+Many to Many results junction table 
+
+
+
+Database is for OLTP (Online transcation Protocol)
+
+Datewarehouses is for OLAP (Online Analytical Protocol)
+
+
+Setting up BigQuery with datasets 
+
+
+
+
+
+
+

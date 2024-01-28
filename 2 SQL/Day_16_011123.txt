@@ -1,0 +1,15 @@
+Null Values  and trim functions
+
+Subqueries 
+
+Case & When 
+
+Case 
+	when <condition 1>
+	Then " " 
+	when <condition 2>
+	Then " " 
+End as alias
+
+
+

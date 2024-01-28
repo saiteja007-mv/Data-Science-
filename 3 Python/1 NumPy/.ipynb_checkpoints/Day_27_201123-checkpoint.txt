@@ -1,0 +1,3 @@
+Concepts learnt
+
+Numpy 
